@@ -70,8 +70,8 @@ namespace StopWatchFinal {
             Console.ResetColor();
         }
     }
-
-// Handle user input
+    
+    // Handle user input
     class TimerInput {
         readonly Regex _timeFormat = new(@"([0-9]+\s?[a-z]+)");
         private readonly string _toInterpret;
