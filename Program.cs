@@ -37,7 +37,7 @@ namespace ColourfulTimer {
 
         // Function to run once the Timer#Stop is run
         static void TimeIsOut(object? _, ElapsedEventArgs _1) {
-            LoggerInfo("Time is out!");
+            LoggerInfo("Time is up!");
         }
 
         // Set Console#ForeGroundColor to ConsoleColour#Yellow, print, then reset
