@@ -2,7 +2,7 @@
 using System.Timers;
 using Timer = System.Timers.Timer;
 
-namespace StopWatchFinal {
+namespace ColourfulTimer {
     static class Program {
         static void Main() {
             // Prompt user
@@ -16,7 +16,7 @@ namespace StopWatchFinal {
             timer.Elapsed += TimeIsOut;
             timer.Start();
 
-            // Loop - rruns once every second
+            // Loop - runs once every second
             for (int i = 0; i < toTime; i += 1000) {
                 int timeLeft = toTime - i;
                 Console.Clear();
